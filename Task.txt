@@ -1,0 +1,42 @@
+Create a program that demonstrates the following concepts 
+1, oop
+2, inheritence
+3, should have 5 classes 
+4, inheritence in atleast 2 classes 
+5, getter setter | constructor in each class 
+6, 3 custom methods 
+7, Should be based on real world examples
+
+
+Banking System
+
+Classes: Savings, Balance, Account,loan,Credit Card    
+Inheritance: Accounts: Balance, Savings, loan,
+Custom Methods: deposit(), withdraw(), calculateInterest(), 
+
+Accounts: 
+Name, DOB, Email, Number, Savings, Balance
+
+Balance: 
+Total amount of money in account not including Savings 
+Savings: 
+Amount, Time, Interest Rate
+Holds some money which can't be withdrawn and has 9% interests 
+
+Account: 
+In herits Balance SAvings and Loan of a consumer
+
+Loan: 
+Total amount of loan he has taken and how much he has to pay after the interest applied to loan 
+
+depoist():
+Can deposit money to balance or savings
+
+withdraw: 
+Can take money from balance
+
+Calculate interest: 
+calculate interst of both savings and loan 
+
+loanpaying: 
+can pay the reamning loan and show how much loan is left   
