@@ -18,13 +18,14 @@ Accounts:
 Name, DOB, Email, Number, Savings, Balance
 
 Balance: 
-Total amount of money in account not including Savings 
+Total amount of money in account not including Savings .Also determines if a person can have a credit card
+
 Savings: 
 Amount, Time, Interest Rate
 Holds some money which can't be withdrawn and has 9% interests 
 
 Account: 
-In herits Balance SAvings and Loan of a consumer
+In herits Balance, SAvings, CreditCard and Loan of a consumer
 
 Loan: 
 Total amount of loan he has taken and how much he has to pay after the interest applied to loan 
@@ -40,3 +41,7 @@ calculate interst of both savings and loan
 
 loanpaying: 
 can pay the reamning loan and show how much loan is left   
+
+Credit Card: 
+if usser has required amount of balance he/she can make a credit card. 
+Allows user to withdraw 1000 per day. 
